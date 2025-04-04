@@ -2,7 +2,7 @@
 
 set_requirements() {
 rm -rf vendor/lineage
-git clone --depth=1 https://github.com/belowzeroiq/vendor_lineage -b lineage-20.0 vendor/lineage
+git clone --depth=1 https://github.com/passive-development/android_vendor_arrow -b arrow-13.1 vendor/arrow
 }
 
 set_requirements

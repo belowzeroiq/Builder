@@ -1,11 +1,11 @@
 env:
     DEVICE_CODENAME: topaz # Enter your device codename
-    ROMREPO: https://github.com/LineageOS/android.git -b lineage-20.0 # Enter ROM repo link
-    LOCALMANIFEST: https://github.com/belowzeroiq/local_manifest.git -b 64 # Enter local_manifest link
-    MAKEFILENAME: lineage_topaz # Enter makefile name (example: aosp_fleur)
+    ROMREPO: https://github.com/ArrowOS-Extended/android_manifest.git -b arrow-13.1 # Enter ROM repo link
+    LOCALMANIFEST: https://github.com/belowzeroiq/local_manifest.git -b arrow-64 # Enter local_manifest link
+    MAKEFILENAME: arrow_topaz # Enter makefile name (example: aosp_fleur)
     VARIANT: userdebug # Enter build variant (eng, user, userdebug)
     EXTRACMD: # If you want to run any extra command before build
-    TARGET: mka bacon # Enter target (example: m bacon, make bacon, mka bacon)
+    TARGET: m bacon # Enter target (example: m bacon, make bacon, mka bacon)
     PIXELDRAIN_API_KEY: "ENCRYPTED[46234771d0bb012179618b4e3596a65fa5acd491e804700b1c83c174787342df57ce64aa093f12156c8c43776d15cb45]"
 
 # DONT MODIFY FROM HERE #
