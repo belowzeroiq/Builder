@@ -107,8 +107,8 @@ upload_ota() {
     fi
 }
 
-local start_time=$(date +%s)
 monitor_time_with_logs() {
+    local start_time=$(date +%s)
     local last_display_time=$start_time
     
     while true; do
